@@ -1,0 +1,34 @@
+{
+  "name": "alexsandra-shop",
+  "version": "1.0.0",
+  "description": "This site example shop node.js + docker mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xDmv/nodejs-db-docker.git"
+  },
+  "keywords": [
+    "node.js",
+    "mysql",
+    "docker",
+    "express",
+    "sequelize",
+    "api"
+  ],
+  "author": "xDmv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xDmv/nodejs-db-docker/issues"
+  },
+  "homepage": "https://github.com/xDmv/nodejs-db-docker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  }
+}
