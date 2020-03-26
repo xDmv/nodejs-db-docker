@@ -15,3 +15,5 @@ pull:
 restart: kill up status
 ps: 
 	docker-compose ps
+conf:
+	docker-compose config
