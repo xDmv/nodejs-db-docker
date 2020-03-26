@@ -7,6 +7,12 @@ I am use tehnology:
   - Make file
 
 Before use, you must have Docker and Docker-CE installed!
+Before use create file /be/.env with setting:
+- DB_DATABASE=example
+- DB_USER=user
+- DB_USER_PASSWORD=password
+- DB_PASSWORD=root-password
+- DB_PORT=only numbers
 
 For starting your need:
   1) $ make init
