@@ -17,3 +17,7 @@ ps:
 	docker-compose ps
 conf:
 	docker-compose config
+start: 
+	npm run start
+dev:
+	npm run dev
