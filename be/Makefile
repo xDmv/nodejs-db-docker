@@ -9,7 +9,7 @@ RESET  := $(shell tput -Txterm sgr0)
 
 help:
 	@echo '$(WHITE)Available the following targets$(RESET):'
-	@echo '$(YELLOW)init$(RESET):'
+	@echo '$(RED)init:'
 	@echo '  $(GREEN)up $(RESET) 	 - initialization docker images and install npm packages'
 	@echo '$(YELLOW)start server$(RESET):'
 	@echo '  $(GREEN)start $(RESET) - start server'
