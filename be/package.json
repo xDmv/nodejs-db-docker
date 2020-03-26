@@ -1,5 +1,5 @@
 {
-  "name": "alexsandra-shop",
+  "name": "example-api",
   "version": "1.0.0",
   "description": "This site example shop node.js + docker mysql",
   "main": "server.js",
