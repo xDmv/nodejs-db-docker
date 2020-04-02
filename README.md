@@ -6,8 +6,8 @@ I am use tehnology:
   - Docker images: MySQL & Adminer
   - Make file
 
-Before use, you must have Docker and Docker-CE installed!
-<br> Before use create file /be/.env with setting:
+**Before use, you must have Docker and Docker-CE installed!**
+<br> **Before use create file /be/.env with setting:**
 <br> DB_DATABASE=example
 <br> DB_USER=user
 <br> DB_USER_PASSWORD=password
