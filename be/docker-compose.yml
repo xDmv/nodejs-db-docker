@@ -20,4 +20,4 @@ services:
     image: dehy/adminer
     restart: always
     ports:
-      - 9080:80
+      - ${PORT_ADMINER}:80
