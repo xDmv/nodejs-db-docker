@@ -52,7 +52,6 @@ exports.findAll = (req, res) => {
 // Find a single Test with an id
 exports.findOne = (req, res) => {
   const id = req.params.id;
-
   Test.findByPk(id)
     .then(data => {
       res.send(data);
